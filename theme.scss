@@ -42,11 +42,13 @@ $theme-colors: (
 
 $body-bg: white;
 $body-color: #212529;
+$body-min-height: 100vh;
 
 
 $body-color-inverse: invert($body-color) !default;
 $link-color: #D5573B;
 $link-color-hover: #a13a23;
+$link-text-decoration: none;
 
 // Fonts
 $font-family-base: 'Source Sans Pro', sans-serif;
