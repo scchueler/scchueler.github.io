@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap");
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 4.5rem; }
+
+#footer {
+  position: absolute;
+  bottom: 0; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

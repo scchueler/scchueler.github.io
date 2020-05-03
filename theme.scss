@@ -2,6 +2,20 @@
 
 // Options
 // 
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 4.5rem;
+
+  //height of the footer
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+}
+
 // Quickly modify global styling by enabling or disabling optional features.
   
 $enable-rounded:            true !default;
