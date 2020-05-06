@@ -11,10 +11,18 @@ body {
   //height of the footer
 }
 
+#header {
+  transition: 0.2s;
+  background-image: url('media/header.png');
+  background-size:cover;
+  margin:0 auto
+}
+
 #footer {
   position: absolute;
   bottom: 0;
 }
+
 
 // Quickly modify global styling by enabling or disabling optional features.
   
