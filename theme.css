@@ -331,19 +331,19 @@ h1, .h1 {
       font-size: calc(1.375rem + 1.5vw) ; } }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 1.75rem; }
   @media (max-width: 1200px) {
     h2, .h2 {
       font-size: calc(1.325rem + 0.9vw) ; } }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 1.5rem; }
   @media (max-width: 1200px) {
     h3, .h3 {
       font-size: calc(1.3rem + 0.6vw) ; } }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 1.25rem; }
   @media (max-width: 1200px) {
     h4, .h4 {
       font-size: calc(1.275rem + 0.3vw) ; } }
@@ -378,7 +378,7 @@ h6, .h6 {
       font-size: calc(1.675rem + 5.1vw) ; } }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2; }
   @media (max-width: 1200px) {
@@ -386,7 +386,7 @@ h6, .h6 {
       font-size: calc(1.575rem + 3.9vw) ; } }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2; }
   @media (max-width: 1200px) {
