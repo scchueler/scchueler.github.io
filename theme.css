@@ -7264,14 +7264,14 @@ a.text-dark:hover, a.text-dark:focus {
 @media screen and (max-width: 1100px) {
   /* Place the timelime to the left */
   .timeline::after {
-    left: 27px; }
+    left: 15px; }
   /* Full-width containers */
   .container-timeline {
     width: 100%;
-    padding-left: 70px;
+    padding-left: 25px;
     padding-right: 25px; }
     .container-timeline::before {
-      left: 60px;
+      left: 30px;
       border: medium solid white;
       border-width: 10px 10px 10px 0;
       border-color: transparent white transparent transparent; }
