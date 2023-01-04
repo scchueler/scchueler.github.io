@@ -1,6 +1,0 @@
-// CMake Config File for JS
-module.exports =  {
-    usesgpl : "@BIS_USEGPL@",
-    usesafni : "@BISWEB_USEAFNI@",
-    usecpm : "@BIS_USECPM@",
-}
