@@ -1,0 +1,8 @@
+nibabel==3.2.2
+numpy>=1.22.0
+pillow>=4.3.0
+scipy
+setuptools
+wheel>=0.31
+wget
+python-dateutil
