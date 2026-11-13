@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artwork – Clara Schüler</title>
+<meta name="description" content="Photography and more by Clara Schüler.">
+<link rel="canonical" href="https://claraschueler.de/art.html">
+<link rel="icon" href="media/favicon.ico">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+	<div class="wrap">
+		<a class="brand" href="/">Clara Schüler</a>
+		<ul>
+			<li><a href="/#resume">Resume</a></li>
+			<li><a href="/#experience">Experience</a></li>
+			<li><a href="art.html" aria-current="page">Artwork</a></li>
+		</ul>
+	</div>
+</nav>
+<main class="art">
+	<div class="wrap">
+		<p class="eyebrow">Artwork</p>
+		<h1>Photography <em>&amp; more</em></h1>
+	</div>
+	<div class="wrap art-bar"><button type="button" class="btn" id="gallery-home"><span aria-hidden="true">←</span> All albums</button></div>
+	<iframe id="gallery" src="https://claracadi.picspot.co/" title="Artwork gallery by Clara Schüler"></iframe>
+	<p class="wrap art-fallback">Gallery not showing? <a href="https://claracadi.picspot.co/" target="_blank" rel="noopener">Open it in a new tab</a>.</p>
+</main>
+<footer class="footer">
+	<div class="wrap"><p>© 2020–2026 Clara Schüler · <a href="legal.html">Legal notice</a></p></div>
+</footer>
+<script>
+// Picspot has no back link inside albums: this button reloads the gallery start page.
+document.getElementById('gallery-home').onclick = () => { const f = document.getElementById('gallery'); f.src = f.src; };
+</script>
+</body>
+</html>
